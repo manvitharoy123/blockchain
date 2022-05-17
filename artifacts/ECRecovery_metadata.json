@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "Eliptic curve signature operations\r "
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"blockchain/ECRecovery.sol": "ECRecovery"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"blockchain/ECRecovery.sol": {
+			"keccak256": "0xbc0f1a5ae564e59820c27ec3e2dada4f3e9783d3c3ac8f99c216a6adffacad24",
+			"urls": [
+				"bzzr://d63fa50c74c101b84a3b836d86a74e4dae95901a25f93a07dab3009ced367b79"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,223 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_employeeAddress",
+						"type": "address"
+					}
+				],
+				"name": "employeeExists",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_employeeAddress",
+						"type": "address"
+					},
+					{
+						"name": "_salaryPerSecond",
+						"type": "uint256"
+					}
+				],
+				"name": "updateSalaryPerSecond",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getNumberOfEmployees",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_incomeAccount",
+						"type": "address"
+					},
+					{
+						"name": "_salaryPerSecond",
+						"type": "uint256"
+					},
+					{
+						"name": "_maximumSecondsPerSession",
+						"type": "uint256"
+					}
+				],
+				"name": "createEmployeeContract",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddressByIndex",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_employeeAddress",
+						"type": "address"
+					},
+					{
+						"name": "_maximumSecondsPerSession",
+						"type": "uint256"
+					}
+				],
+				"name": "updateMaximumSecondsPerSession",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_employeeAddress",
+						"type": "address"
+					}
+				],
+				"name": "readSalaryPerSecond",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_employeeAddress",
+						"type": "address"
+					}
+				],
+				"name": "readMaximumSecondsPerSession",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "incomeAccount",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "salaryPerSecond",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "maximumSecondsPerSession",
+						"type": "uint256"
+					}
+				],
+				"name": "EmployeeContractCreation",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"blockchain/EmployeeContractStorage.sol": "EmployeeContractStorage"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"blockchain/EmployeeContractStorage.sol": {
+			"keccak256": "0x6da7b5c99924b40052bb4c395f884b71df608dfe165d89d69e140f713325e8c7",
+			"urls": [
+				"bzzr://e9f38bdfa69ea1338cf8f9696a57e3852129b3d7393ac466c96a2011f8d3284a"
+			]
+		}
+	},
+	"version": 1
+}

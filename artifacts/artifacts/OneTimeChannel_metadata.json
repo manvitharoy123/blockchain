@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_hash",
+						"type": "bytes32"
+					},
+					{
+						"name": "_sig",
+						"type": "bytes"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "closeChannel",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "timeOutChannel",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_hash",
+						"type": "bytes32"
+					},
+					{
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "getChannelParties",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_opener",
+						"type": "address"
+					},
+					{
+						"name": "_remainingBalanceWallet",
+						"type": "address"
+					},
+					{
+						"name": "_paymentReceiverWallet",
+						"type": "address"
+					},
+					{
+						"name": "_timeout",
+						"type": "uint256"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"blockchain/artifacts/OneTimeChannel.sol": "OneTimeChannel"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"blockchain/ECRecovery.sol": {
+			"keccak256": "0xbc0f1a5ae564e59820c27ec3e2dada4f3e9783d3c3ac8f99c216a6adffacad24",
+			"urls": [
+				"bzzr://d63fa50c74c101b84a3b836d86a74e4dae95901a25f93a07dab3009ced367b79"
+			]
+		},
+		"blockchain/artifacts/OneTimeChannel.sol": {
+			"keccak256": "0xbd688c8853f3d3e394fe06425bc4b437ff0ac5b28e9dcd082941e8886bb23cb8",
+			"urls": [
+				"bzzr://45f5e1ff780da52f7b026211bae3d9544fe4e8a3b22a7489a530349af74f9da6"
+			]
+		}
+	},
+	"version": 1
+}

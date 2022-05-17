@@ -1,0 +1,253 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawFunds",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"name": "newSalary",
+						"type": "uint256"
+					}
+				],
+				"name": "updateSalary",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "sendTo",
+						"type": "address"
+					}
+				],
+				"name": "sendSalary",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "depositInvestment",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "empAd",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "check",
+						"type": "address"
+					}
+				],
+				"name": "isActive",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "addFunds",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "removeEmployee",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "listOutEmployees",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newEmployee",
+						"type": "address"
+					},
+					{
+						"name": "salary",
+						"type": "uint256"
+					}
+				],
+				"name": "addEmployee",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"blockchain/payrollSystem.sol": "payrollSystem"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"blockchain/ECRecovery.sol": {
+			"keccak256": "0xbc0f1a5ae564e59820c27ec3e2dada4f3e9783d3c3ac8f99c216a6adffacad24",
+			"urls": [
+				"bzzr://d63fa50c74c101b84a3b836d86a74e4dae95901a25f93a07dab3009ced367b79"
+			]
+		},
+		"blockchain/OneTimeChannel.sol": {
+			"keccak256": "0xd7c27ad70a4568c8eb398a77a663f3944231bf964380cd941b5ee15e7953bcba",
+			"urls": [
+				"bzzr://c0f65e53d8b5ca18c428cbf5cf64a3e6ae26f11412df7fc1cda981fa629dc43e"
+			]
+		},
+		"blockchain/payrollSystem.sol": {
+			"keccak256": "0x0c3bd775ec5f39126d57c818ec7d188b20c74aa16d4089e1683c44705c2f9992",
+			"urls": [
+				"bzzr://27352ede69e385ead062d7f6a02a2ac2bb82ef31b7821383a570d318849b9b37"
+			]
+		}
+	},
+	"version": 1
+}
