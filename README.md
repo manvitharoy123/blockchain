@@ -2,17 +2,15 @@
 <h2 align="center"><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">Hello guys, I am Manvitha Roy</h2>
 <p align="center">⚡ Blockchain project </strong></p>
 <p align="center">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/1.png" width="200"title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/2.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/3.png"width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/4.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/5.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/6.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/7.png" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture1.jpg" width="200"title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture2.jpg" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture3.jpg"width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture4.jpg" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture5.jpg" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture6.jpg" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture7.jpg" width="200" title="hover text">
   
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/8.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/9.png" width="200" title="hover text">
-  <img src="https://github.com/manvitharoy123/Current_affairs_app/blob/master/10.png" width="200" title="hover text">
+  <img src="https://github.com/manvitharoy123/blockchain/blob/master/Picture8.jpg" width="200" title="hover text">
 </p>
 
 ## 💻Features
